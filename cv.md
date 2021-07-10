@@ -1,8 +1,7 @@
-**NOTE**: this CV was created as a learning task from rsschool    
+**NOTE**: this CV was created as a learning task from RSschool    
 **IMPORTANT**: all contacts are real 
 
-  #__Vitali Santalau__ 
-                            __web developer__
+  __Vitali Santalau__    
 ------------------------------------------------------------------------  
 
 __mob__: +375 44 7420847  
@@ -24,12 +23,12 @@ __foreign languages__:
     * passed classes level A2 in Gomel, Belarus (2018)
     * passed classes level A2 in Edinburgh, Scotland (3 weeks 2019)
     * passed classes level C1 in Edinburgh, Scotland (4 weeks 2020)
-    * have classes whith native speaker (USA, GB) by https://www.italki.com/
+    * taking lessons with native speaker (USA, GB) by https://www.italki.com/
   
   * German
     * intro level A2
 
 __web developer education__:
   * self-education (last 2 years);
-  * last course - course "JavaScript/DOM/interfaces" for developers from https://learn.javascript.ru
-  * current stay - learning at rsscholl, Stage#0 
+  * last course - course "JavaScript/DOM/interfaces" for developers by https://learn.javascript.ru
+  * current stay - learning at ROLING SCOPE SCHOOL,Stage#0 by https://app.rs.school/
