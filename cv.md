@@ -1,11 +1,13 @@
-**NOTE**: this CV was created as a learning task from rsschool
+**NOTE**: this CV was created as a learning task from rsschool    
 **IMPORTANT**: all contacts are real 
 
-  # Vitali Santalau web developer
+  #__Vitali Santalau__ 
+                            __web developer__
+------------------------------------------------------------------------  
 
-__mob__: +375 44 7420847
-__email__: v.santalau@gmail.com
-__github__: https://github.com/VitaliSantalau
+__mob__: +375 44 7420847  
+__email__: v.santalau@gmail.com  
+__github__: https://github.com/VitaliSantalau  
 
 __main skill__: Java script 
 
