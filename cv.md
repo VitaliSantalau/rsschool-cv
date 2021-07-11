@@ -21,14 +21,14 @@ related skills (have experience):
 __foreign languages__:
   * English
     * passed classes level A2 in Gomel, Belarus (2018)
-    * passed classes level A2 in Edinburgh, Scotland (3 weeks 2019)
-    * passed classes level C1 in Edinburgh, Scotland (4 weeks 2020)
+    * passed intensive classes level A2 in Edinburgh, Scotland (3 weeks 2019)
+    * passed intensive classes level C1 in Edinburgh, Scotland (4 weeks 2020)
     * taking lessons with native speaker (USA, GB) by https://www.italki.com/
   
   * German
-    * intro level A2
+    * intro level A1
 
 __web developer education__:
   * self-education (last 2 years);
-  * last course - course "JavaScript/DOM/interfaces" for developers by https://learn.javascript.ru
-  * current stay - learning at ROLING SCOPE SCHOOL,Stage#0 by https://app.rs.school/
+  * last course - course "JavaScript/DOM/interfaces" for developers from https://learn.javascript.ru
+  * current state - learning at ROLING SCOPE SCHOOL,Stage#0
