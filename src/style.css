@@ -75,7 +75,7 @@ main {
   background-color: #333333;
 }
 
-.common > article h3 {
+.common h3 {
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 0.5rem 0 0.5rem 3rem;
@@ -83,13 +83,14 @@ main {
   border-left: 0.5rem solid #c01027;
 }
 
-.special > article h3:first-child {margin-top: 1rem ;}
-
 .common a {color: #ffffff;}
 
-article h4 {margin-bottom: 0.5rem;}
+.common h4,
+.special h4 {
+  margin-bottom: 0.5rem;
+}
 
-.common article li,
+.common li,
 .language p {
   margin-bottom: 2rem;
   margin-left: 2rem;
@@ -101,7 +102,7 @@ article h4 {margin-bottom: 0.5rem;}
 
 .special {flex: 1 1 36rem;}
 
-.special > article h3 {
+.special h3 {
   margin-top: 3rem;
   margin-bottom: 1rem;
   padding: 0.5rem 0 0.5rem 3rem;
@@ -110,9 +111,9 @@ article h4 {margin-bottom: 0.5rem;}
   background-color: #dcdcdc;
 }
 
-.special > article h3:first-child {margin-top: 1rem;}
+.special h3:first-child {margin-top: 1rem;}
 
-.special > article li {
+.special li {
   margin-bottom: 0.5rem;
   margin-left: 2rem;
 }

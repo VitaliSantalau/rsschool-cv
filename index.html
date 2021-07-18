@@ -14,7 +14,7 @@
         <div class="header-container">
           <h1 class="name">Vitali Santalau</h1>
           <p class="title">web developer</p>
-          <article class="about">
+          <div class="about">
             <p>
               I am a web developer from Belarus, Gomel. 
               Learn endlessly, this is about me, especially if you are talking about web development.
@@ -29,12 +29,12 @@
                 <a href="mailto:v.santalau@gmail.com">v.santalau@gmail.com</a>
               </li>
             </ul> 
-          </article>
+          </div>
         </div>  
       </header>
       <main>
-        <section class="common">
-          <article class="contacts">
+        <div class="common">
+          <div class="contacts">
             <h3>Contacts</h3>
             <ul>
               <li>
@@ -50,8 +50,8 @@
                 <p>Gomel, Belarus</p>
               </li>
             </ul>
-          </article>
-          <article class="education">
+          </div>
+          <div class="education">
             <h3>Education</h3>
             <ul>
               <li>
@@ -67,25 +67,23 @@
                 <p>State Technical University named P.O.Sukhoi</p>
               </li>
             </ul>
-          </article>
-          <article class="language">
+          </div>
+          <div class="language">
             <h3>First language</h3>
             <p>Russian</p>
-          </article>
-        </section>
-        <section class="special">
-          <article class="skills">
+          </div>
+        </div>
+        <div class="special">
+          <div class="skills">
             <h3>Skills</h3>
             <ul>
               <li>
-                <ul>
-                  <h4>main:</h4>
-                  <li>- Java script</li>
-                </ul>
+                <h4>main:</h4>
+                <p>- Java script</p>
               </li>
               <li>
+                <h4>related (have experience):</h4>
                 <ul>
-                  <h4>related (have experience):</h4>
                   <li>- React, Gatsby, Next.js</li>
                   <li>- Redux</li>
                   <li>- HTML5</li>
@@ -95,42 +93,42 @@
                 </ul>
               </li>
             </ul>
-          </article>
-          <article class="dev-education">
+          </div>
+          <div class="dev-education">
             <h3>Developer education</h3>
             <ul>
               <li>
+                <h4>self-education (last 2 years):</h4>
                 <ul>
-                  <h4>self-education (last 2 years):</h4>
                   <li>- CodeAcademy</li>
                   <li>- HTMLAcademy</li>
                   <li>- Hexlet...etc</li>
                 </ul>
               </li>
               <li>
+                <h4>last course:</h4>
                 <ul>
-                  <h4>last course:</h4>
                   <li>- course "JavaScript/DOM/interfaces" for developers from 
                     <a href="https://learn.javascript.ru" target="_blank">javascript.ru</a>
                   </li>
                 </ul>
               </li>
               <li>
+                <h4>current state:</h4>
                 <ul>
-                  <h4>current state:</h4>
                   <li>training at 
                     <a href="https://rs.school/js/" target="_blank">ROLING SCOPE SCHOOL</a>,
                      Stage#0</li>
                 </ul>
               </li>  
             </ul>
-          </article>
-          <article class="languages">
+          </div>
+          <div class="languages">
+            <h3>Second languages</h3>
             <ul>
-              <h3>Second languages</h3>
               <li>
+                <h4>English</h4>
                 <ul>
-                  <h4>English</h4>
                   <li>- passed classes level A2 in Gomel, Belarus (2018)</li>
                   <li>- passed intensive classes level A2 in Edinburgh, Scotland (3 weeks 2019)</li>
                   <li>- passed intensive classes level C1 in Edinburgh, Scotland (4 weeks 2020)</li>
@@ -140,19 +138,19 @@
                 </ul>
               </li>
               <li>
+                <h4>German</h4>
                 <ul>
-                  <h4>German</h4>
                   <li>- intro level A1/A2</li>
                 </ul>
               </li>
             </ul>
-          </article>
-          <article class="examples">
+          </div>
+          <div class="examples">
             <h3>Some works</h3>
               <ul>
                 <li>
+                  <h4>explore my GitHub:</h4>
                   <ul>
-                    <h4>explore my GitHub:</h4>
                     <li>- account 
                       <a href="https://github.com/VitaliSantalau" target="_blank">here</a>
                     </li>
@@ -165,19 +163,17 @@
                   </ul>
                 </li>
                 <li>
-                  <ul>
-                    <h4>take a look some code examples below:</h4>
-                  </ul>
+                  <p>take a look some code examples below:</p>
                 </li>
               </ul>
-          </article>
-        </section>
-        <section class="code">
+          </div>
+        </div>
+        <div class="code">
           <ul>
             <li>
               <h4>use this approach work with DOM</h4>
-              <code>
-                <pre>
+              <pre>
+                <code>
     render() {
       const element = document.createElement('div');
       element.innerHTML = this.template;
@@ -196,37 +192,37 @@
     const { input, ..., ... } = this.subElements;
     input.addEventListener('pointerdown', this.toggle);
     ...
-                </pre>
-              </code>
+                </code>
+              </pre>
             </li>
             <li>
+              <h4>some tasks from 
+                <a href="https://www.codewars.com/" target="_blank">codewars.com</a>
+              </h4>
               <ul>
-                <h4>some tasks from 
-                  <a href="https://www.codewars.com/" target="_blank">codewars.com</a>
-                </h4>
-                <li>- decimal to binary converter</li>
-                  <code>
-                    <pre>
+                <li>- decimal to binary converter
+                  <pre>
+                    <code>
     function decToBin(d) {
       if(d === 0) return '0';
       if(d === 1) return '1';
       return `${decToBin(Math.floor(d / 2))}${d % 2}`;
     }              
-                    </pre>
-                  </code>
+                    </code>
+                  </pre>
                 </li>
-                <li>- run your string</li>
-                  <code>
-                    <pre>
+                <li>- run your string
+                  <pre>
+                    <code>
     function runYourString (arg, obj) {
       return (new Function(obj.param, obj.func))(arg)
     }             
-                    </pre>
-                  </code>
+                    </code>
+                  </pre>
                 </li>
-                <li>- whose bicycle?</li>
-                  <code>
-                    <pre>
+                <li>- whose bicycle?
+                  <pre>
+                    <code>
     function whoseBicycle(diary1, diary2, diary3) {
       function getSumMarks(obj) {
         return Object.values(obj).reduce((elem, acc) => elem + acc, 0)
@@ -244,13 +240,13 @@
       }[maxSum];
 
       return `I need to buy a bicycle for my ${winner} son.` 
-    }              
-                    </pre>
-                  </code>
+    }             
+                    </code>
+                  </pre>
                 </li>
               </ul>            
           </ul>
-        </section>
+        </div>
       </main> 
       <footer>
         <div>
