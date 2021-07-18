@@ -113,7 +113,8 @@ main {
 
 .special h3:first-child {margin-top: 1rem;}
 
-.special li {
+.special li,
+.skills p {
   margin-bottom: 0.5rem;
   margin-left: 2rem;
 }
