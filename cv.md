@@ -26,15 +26,15 @@
 - Jest
 
 #### Developer education
-- self-education:
--- Codecademy
--- HTML Academy
--- Hexlet, etc...
-- recent courses:
--- course "JavaScript/DOM/interfaces" for developers [certificate]() 
--- The Rolling Scopes School, Stage#0 [certificate]() 
-- current course:
--- training at ROLING SCOPE SCHOOL, Stage#1 
+- self-education:    
+-- Codecademy    
+-- HTML Academy    
+-- Hexlet, etc...   
+- recent courses:    
+-- course "JavaScript/DOM/interfaces" for developers [certificate]()         
+-- The Rolling Scopes School, Stage#0 [certificate]()    
+- current course:   
+-- training at ROLING SCOPE SCHOOL, Stage#1      
 
 #### Recent projects
 - **Time set**
