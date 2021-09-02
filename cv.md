@@ -14,12 +14,13 @@
 
 ***
 
-#### Skills
--main:   
+### Skills
+
+- main:   
 -- JavaScript    
 -- HTML5, CSS3, Sass    
 
--related (have experience):  
+- related (have experience):  
 -- React, Gatsby, Next.js    
 -- Redux    
 -- Git, Github     
@@ -27,33 +28,40 @@
 
 ---
 
-#### Developer education
+### Developer education
+
 - self-education:    
 -- Codecademy    
 -- HTML Academy    
 -- Hexlet, etc...      
 - recent courses:    
--- course "JavaScript/DOM/interfaces" for developers [certificate]()         
+-- course "JavaScript/DOM/UI" for programmers [certificate](https://github.com/VitaliSantalau/cv/blob/main/assets/certificates/JavaScript-DOM-UI.jpg)         
 -- The Rolling Scopes School, JS/FE Pre-School, Stage#0 [certificate]()    
 - current course:    
 -- The Rolling Scopes School, JavaScript/Front-end 2021Q3, Stage#1      
 
 ---
 
-#### Recent projects
+### Recent projects
+
 **Time set**
+
 description
+
 demo code
 
---
+
 
 **Custom video player**
+
 description
+
 demo code
 
 ---
 
-#### Code solution from Codewars
+### Code solution from Codewars
+
 Kata: Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result
 
 ```javascript
@@ -64,8 +72,9 @@ function arrayDiff(a, b) {
 
 ---
 
-#### Second languages
-- English
+### Second languages
+
+- English    
 -- passed classes level A2 in Gomel, Belarus (2018)  
 -- passed intensive classes level A2 in Edinburgh, Scotland (3 weeks 2019) [certificate]()  
 -- passed intensive classes level C1 in Edinburgh, Scotland (4 weeks 2020) [certificate]()  
@@ -76,7 +85,8 @@ function arrayDiff(a, b) {
 
 ---
 
-#### Video resume
+### Video resume
+
 take a look [here]()
 
 ***
