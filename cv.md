@@ -35,7 +35,7 @@
 -- HTML Academy    
 -- Hexlet, etc...      
 - recent courses:    
--- course "JavaScript/DOM/UI" for programmers [certificate](https://github.com/VitaliSantalau/cv/blob/main/assets/certificates/JavaScript-DOM-UI.jpg)         
+-- course "JavaScript/DOM/UI" for programmers [certificate](https://vitalisantalau.github.io/cv/assets/certificates/JavaScript-DOM-UI.jpg)         
 -- The Rolling Scopes School, JS/FE Pre-School, Stage#0 [certificate]()    
 - current course:    
 -- The Rolling Scopes School, JavaScript/Front-end 2021Q3, Stage#1      
@@ -75,9 +75,9 @@ function arrayDiff(a, b) {
 ### Second languages
 
 - English    
--- passed classes level A2 in Gomel, Belarus (2018)  
--- passed intensive classes level A2 in Edinburgh, Scotland (3 weeks 2019) [certificate]()  
--- passed intensive classes level C1 in Edinburgh, Scotland (4 weeks 2020) [certificate]()  
+-- passed classes level A2 at Gomel, Belarus 
+-- passed an Intensive General English course, level A2 at the Language Institute (Edinburgh, Scotland) [certificate](https://vitalisantalau.github.io/cv/assets/certificates/Language-Institute-%20Edinburgh-2018.jpg)  
+-- passed intensive classes level C1 in Edinburgh, Scotland [certificate]()  
 -- taking lessons with native speaker (USA, GB) by italki.com  
 -- taking lessons with a tutor  
 - German
