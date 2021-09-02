@@ -9,7 +9,7 @@
 ![Gmail](https://img.shields.io/badge/v.santalau@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white) [![LinkedIn](https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitali-santalau-3334b91ba) [![Skype](https://img.shields.io/badge/skype-%2300AFF0.svg?style=for-the-badge&logo=Skype&logoColor=white)](https://join.skype.com/invite/JGZabnC6xj0i)
 
 - **phone:** +375447420847
-- **github:** https://github.com/vitalisantalau/
+- **github:** [https://github.com/vitalisantalau](https://github.com/vitalisantalau/)
 - **current location:** Gomel, Belarus
 
 ***
@@ -46,17 +46,26 @@
 
 **Time set**
 
-description
+![time-set-image](/assets/images/timeset-cut.jpg)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 
-demo code
+> Web App with time functionality: 
+> - mechanical clock 
+> - digital clock 
+> - current date, year 
+> - set mech clocks (different time zones)
+> - stopwatch
+> - timer
+> - custom calendar
+> - and option: background-slider
 
-
+[DEMO](https://vitalisantalau.github.io/Time-set/) [CODE](https://github.com/VitaliSantalau/Time-set)
 
 **Custom video player**
 
 description
 
-demo code
+[DEMO]() [CODE]()
 
 ---
 
@@ -75,7 +84,7 @@ function arrayDiff(a, b) {
 ### Second languages
 
 - English    
--- passed classes level A2 at Gomel, Belarus 
+-- passed classes level A2 at Gomel, Belarus      
 -- passed an Intensive General English course, level A2 at the Language Institute (Edinburgh, Scotland) [certificate](https://vitalisantalau.github.io/cv/assets/certificates/Language-Institute-%20Edinburgh-2018.jpg)  
 -- passed intensive classes level C1 in Edinburgh, Scotland [certificate]()  
 -- taking lessons with native speaker (USA, GB) by italki.com  
