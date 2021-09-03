@@ -94,7 +94,7 @@ function arrayDiff(a, b) {
 - English    
 -- passed english classes, level A2 at Gomel, Belarus      
 -- passed an Intensive General English course, level A2 at the Language Institute (Edinburgh, Scotland) [certificate](https://vitalisantalau.github.io/cv/assets/certificates/Language-Institute-%20Edinburgh-2018.jpg)  
--- passed a General English course, level C1 at the Language Institute (Edinburgh, Scotland) [certificate](https://github.com/VitaliSantalau/cv/blob/main/assets/certificates/Language-Institute-Edinbirgh-2020.jpg)  
+-- passed a General English course, level C1 at the Language Institute (Edinburgh, Scotland) [certificate](https://vitalisantalau.github.io/cv/assets/certificates/Language-Institute-Edinbirgh-2020.jpg)  
 -- taking lessons with native speaker (USA, GB) by italki.com  
 -- taking lessons with a tutor  
 - German
