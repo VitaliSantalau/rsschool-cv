@@ -48,7 +48,7 @@
 
 ![time-set-image](/assets/images/timeset-cut.jpg)
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+JavaScript / HTML5 / CSS3       
 
 > Web App with time functionality: 
 > - mechanical clock 
@@ -66,7 +66,7 @@
 
 ![custom-video-player](/assets/images/video-player-cut.jpg)
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+JavaScript / HTML5 / CSS3    
 
 > Web App:
 > -  base functionality of video player, 
@@ -92,9 +92,9 @@ function arrayDiff(a, b) {
 ### Second languages
 
 - English    
--- passed classes level A2 at Gomel, Belarus      
+-- passed english classes, level A2 at Gomel, Belarus      
 -- passed an Intensive General English course, level A2 at the Language Institute (Edinburgh, Scotland) [certificate](https://vitalisantalau.github.io/cv/assets/certificates/Language-Institute-%20Edinburgh-2018.jpg)  
--- passed intensive classes level C1 in Edinburgh, Scotland [certificate]()  
+-- passed a General English course, level C1 at the Language Institute (Edinburgh, Scotland) [certificate](https://github.com/VitaliSantalau/cv/blob/main/assets/certificates/Language-Institute-Edinbirgh-2020.jpg)  
 -- taking lessons with native speaker (USA, GB) by italki.com  
 -- taking lessons with a tutor  
 - German
