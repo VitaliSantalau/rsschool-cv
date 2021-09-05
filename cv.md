@@ -91,19 +91,18 @@ function arrayDiff(a, b) {
 
 ### Second languages
 
-- English    
+- English (level B1+)    
 -- passed english classes, level A2 at Gomel, Belarus      
 -- passed an Intensive General English course, level A2 at the Language Institute (Edinburgh, Scotland) [certificate](https://vitalisantalau.github.io/cv/assets/certificates/Language-Institute-%20Edinburgh-2018.jpg)  
 -- passed a General English course, level C1 at the Language Institute (Edinburgh, Scotland) [certificate](https://vitalisantalau.github.io/cv/assets/certificates/Language-Institute-Edinbirgh-2020.jpg)  
 -- taking lessons with native speaker (USA, GB) by italki.com  
 -- taking lessons with a tutor  
-- German
--- intro level A1/A2  
+- German (intro level A1/A2)  
 
 ---
 
 ### Video resume
 
-take a look [here]()
+take a look [here](https://youtu.be/D7Rhg5A2Whg)
 
 ***
