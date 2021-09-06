@@ -1,0 +1,208 @@
+/* FONTS */
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url("assets/fonts/NotoSansJP-Thin.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url("assets/fonts/NotoSansJP-Light.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url("assets/fonts/NotoSansJP-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url("assets/fonts/NotoSansJP-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url("assets/fonts/NotoSansJP-Bold.otf");
+  font-weight: 700;
+}
+
+/* VARIABLE */
+:root {
+  --font-main: 'Noto Sans JP', sans-serif;
+  --color-light: #ffffff;
+}
+
+/* COMMON */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {text-decoration: none;}
+
+ul {list-style: none;}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 1440px;
+  /*width: 100%;*/
+}
+
+.row {
+  display: flex;
+}
+
+/*   ****   */
+
+html {
+  font-size: 62.5%; /* 16px * 62.5% = 10px = 1rem */
+  scroll-behavior: smooth;
+} 
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-main);
+}
+
+/* HEADER */
+
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.header-nav > ul {
+  justify-content: right;
+}
+
+.header-nav__link {
+  /* color: var(--color-light); */
+  margin: 2rem;
+}
+
+/* MAIN */
+
+/* about */
+
+#about {
+  width: 100%;
+  min-height: 100vh;
+  border: 1px solid red;
+}
+
+
+
+.name {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  text-align: center;
+}
+
+.about {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+
+.about > * {margin-top: 1.5rem;}
+
+.about > ul > li {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem; 
+}
+
+.common {
+  flex: 0 1 36rem;
+  padding-top: 4rem;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.common h3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 0.5rem 0 0.5rem 3rem;
+  background-color:#505050;
+  border-left: 0.5rem solid #c01027;
+}
+
+.common a {color: #ffffff;}
+
+.common h4,
+.special h4 {
+  margin-bottom: 0.5rem;
+}
+
+.common li,
+.language p {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.contacts a {color: #ffffff;}
+
+.education p {line-height: 3rem;}
+
+.special {flex: 1 1 36rem;}
+
+.special h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0 0.5rem 3rem;
+  background-color:#505050;
+  border-left: 0.5rem solid #c01027;
+  background-color: #dcdcdc;
+}
+
+.special h3:first-child {margin-top: 1rem;}
+
+.special li {
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+
+.examples a {color: #c01027;}
+
+.code {
+  flex: 1 1 36rem;
+  padding: 2rem;
+  background-color: #dcdcdc;
+}
+
+
+
+.logo {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 50%;
+}
