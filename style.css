@@ -56,19 +56,35 @@ ul {list-style: none;}
 }
 
 .container {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
   max-width: 1440px;
-  /*width: 100%;*/
+  width: 100%;
+  
 }
 
 .row {
   display: flex;
 }
 
-/*   ****   */
+.title {
+  position: absolute;
+  top: 70%;
+  left: 2rem;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: var(--color-light);
+  transform: rotate(270deg);
+  transform-origin: 0 0;
+}
+
+.title::before, 
+.title::after {
+  content: "_";
+}
 
 html {
   font-size: 62.5%; /* 16px * 62.5% = 10px = 1rem */
@@ -84,16 +100,18 @@ body {
 
 header {
   position: fixed;
+  z-index: 1;
   width: 100%;
   padding-top: 3rem;
 }
 
 .header-nav > ul {
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 .header-nav__link {
-  /* color: var(--color-light); */
+  font-size: 2rem;
+  color: var(--color-light);
   margin: 2rem;
 }
 
@@ -103,106 +121,19 @@ header {
 
 #about {
   width: 100%;
-  min-height: 100vh;
-  border: 1px solid red;
+  padding-top: 10rem;
+  background-image: url("assets/images/back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
+.about-img {
+  max-width: 320px;
+  margin: 0rem 10rem;
+}
 
-
-.name {
+.about-name {
   font-size: 5rem;
-  font-weight: 600;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 1rem;
-  text-align: center;
-}
-
-.about {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  text-align: justify;
-}
-
-.about > * {margin-top: 1.5rem;}
-
-.about > ul > li {
-  margin-bottom: 1rem;
-  margin-left: 2rem;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 2rem; 
-}
-
-.common {
-  flex: 0 1 36rem;
-  padding-top: 4rem;
-  color: #ffffff;
-  background-color: #333333;
-}
-
-.common h3 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding: 0.5rem 0 0.5rem 3rem;
-  background-color:#505050;
-  border-left: 0.5rem solid #c01027;
-}
-
-.common a {color: #ffffff;}
-
-.common h4,
-.special h4 {
-  margin-bottom: 0.5rem;
-}
-
-.common li,
-.language p {
-  margin-bottom: 2rem;
-  margin-left: 2rem;
-}
-
-.contacts a {color: #ffffff;}
-
-.education p {line-height: 3rem;}
-
-.special {flex: 1 1 36rem;}
-
-.special h3 {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem 0 0.5rem 3rem;
-  background-color:#505050;
-  border-left: 0.5rem solid #c01027;
-  background-color: #dcdcdc;
-}
-
-.special h3:first-child {margin-top: 1rem;}
-
-.special li {
-  margin-bottom: 0.5rem;
-  margin-left: 2rem;
-}
-
-.examples a {color: #c01027;}
-
-.code {
-  flex: 1 1 36rem;
-  padding: 2rem;
-  background-color: #dcdcdc;
-}
-
-
-
-.logo {
-  padding: 1rem;
-  background-color: #ffffff;
-  border: 1px solid;
-  border-radius: 50%;
+  color: var(--color-light);
 }
