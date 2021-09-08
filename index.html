@@ -5,8 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="icon" href="assets/favicon.ico" type="image/x-icon"> -->
-  <link rel="stylesheet" href="./style.css"/>
   <title>Vitali Santalau</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
   <h1 class="visually-hidden">CV Vitali Santalau</h1>
@@ -87,14 +90,14 @@
       <h2 class="visually-hidden">Portfolio</h2>
       <div class="container">
         <p class="title color_dark">_Portfolio_</p>
-        <div class="portfolio-projects-container row">
-          <section class="project timeset">
-            <h3 class="visually-hidden">Web App TimeSet</h3>
-            <a class="project-link" href="#">
-              <img class="project-img" src="./assets/images/timeset.jpg" alt="timeset">
-              <div class="description-container">
-                <div class="name-project">Timeset</div>
-                <div class="description">
+        <div class="portfolio-projects-container">
+          <section class="project timeset row">
+            <div class="project-link-description-container row">
+              <a class="project-link-container row" href="#">
+                <div class="project-title">Timeset</div>
+              </a>
+              <div class="project-description-container">
+                <div class="project-description">
                   <ul>Web App with time functionality:
                     <li> - mechanical clock</li>
                     <li> - digital clock</li>
@@ -106,35 +109,44 @@
                     <li> - and option: background-slider</li>
                   </ul>
                 </div>
-                <div class="name-stack">JavaScript / HTML5 / CSS3</div>
+                <div class="project-stack">JavaScript / HTML5 / CSS3</div>
               </div>
-            </a>
-            <div class="code-link">
-              Code
+            </div>
+            <a class="project-code-link" href="#">Code</a>
+          </section>
+          <section class="project video-player row">
+            <div class="project-link-description-container row">
+              <a class="project-link-container row" href="#">
+                <div class="project-title">Video player</div>
+              </a>
+              <div class="project-description-container">
+                <div class="project-description">
+                  <ul>Web App:
+                    <li> - base functionality of video player</li>
+                    <li> - custom design from RSSchool</li>
+                    <li> - added slider to change video</li>
+                  </ul>
+                </div>
+                <div class="project-stack">JavaScript / HTML5 / CSS3</div>
+              </div>
+            </div>
+            <a class="project-code-link" href="#">Code</a>
+          </section>
+          <section class="code row">
+            <div class="code-container row">
+              <pre>
+                <code class="javascript">
+function arrayDiff(a, b) {
+  return a.filter(elem => !b.includes(elem));  
+}
+                </code>
+              </pre>
+            </div>
+            <div class="code-description">
+              <p class="code-title">Code Example from Codewars</p>
+              <p class="code-cata">Kata: Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result</p>
             </div>
           </section>
-          <div class="video-player">
-            Web App:
-
-base functionality of video player,
-custom design from RSSchool
-added slider to change video
-          </div>
-          <div class="code-example">
-            Code solution from Codewars
-Kata: Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result
-    
-function arrayDiff(a, b) {
-  return a.filter(elem => !b.includes(elem));  
-}
-
-solution from Codewars
-Kata: Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result
-    
-function arrayDiff(a, b) {
-  return a.filter(elem => !b.includes(elem));  
-}
-</div>
         </div>
       </div>
     </article>
@@ -245,9 +257,10 @@ function arrayDiff(a, b) {
         </a>
       </div>
       <a class="logo" href="https://rs.school/js">
-        <img src="./src/rs_school_js.svg" alt="rsschool_logo" height="32">
+        <img src="" alt="rsschool_logo" height="32">
       </a>  
     </div>
   </footer>
+  
 </body>
 </html>
