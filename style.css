@@ -30,6 +30,7 @@
   --font-main: 'Noto Sans JP', sans-serif;
   --color-light: #ffffff;
   --color-dark: #000000;
+  --color-back-light: #dfdfdf;
 }
 
 /* COMMON */
@@ -218,45 +219,94 @@ header {
 }
 
 /* portfolio */
+#portfolio {
+  background-color: var(--color-back-light);
+}
+
 .portfolio-projects-container {
   flex-wrap: wrap;
   padding-top: 3rem;
 }
 
-.timeset {
-  position: relative;
+.project {
   width: 100%;
-  max-width: 50vw; 
-  /* height: 440px; */
-  margin: 2rem; 
-  /* background-image: url("assets/images/timeset.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-  
+  margin: 2rem;
 }
 
-.img-container {
+.timeset {
+  max-width: 50vw;  
+}
+
+.project-link {
+  position: relative;
+  display: block;
   width: 100%;
   height: 100%;
 }
 
-.img-timeset {
+.project-img { 
   width: 100%;
-  height: auto;
 }
+
 
 .description-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1rem 0.5rem 1rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
   color: var(--color-light);
-  background-color: rgba(87, 86, 86, 0.9);
+  background-color: rgba(43, 41, 41, 0.9);
+  border: 1px solid red;
 }
 
-.code-link {
+.project-link:hover .description-container {
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.project-link:not(:hover) .description-container {
+  opacity: 1;
+  transition: 1s ease-in;
+}
+
+
+
+.name-project,
+.name-stack {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.name-project {
+  font-size: 3rem;
+}
+
+.name-stack {
+  font-size: 2rem;
+}
+
+.description {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.description ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-height: 100%;
+  border: 1px solid red;
+}
+
+/* .code-link {
   align-self: flex-start;
   writing-mode: vertical-rl;
   font-size: 3rem;
@@ -264,7 +314,7 @@ header {
   letter-spacing: 0.2rem;
   cursor: pointer;
   background-color: rgba(87, 86, 86, 0.2);
-}
+} */
 
 .video-player {
   width: 400px;
