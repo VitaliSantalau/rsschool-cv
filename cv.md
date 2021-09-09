@@ -36,7 +36,7 @@
 -- Hexlet, etc...      
 - recent courses:    
 -- course "JavaScript/DOM/UI" for programmers [certificate](https://vitalisantalau.github.io/cv/assets/certificates/JavaScript-DOM-UI.jpg)         
--- The Rolling Scopes School, JS/FE Pre-School, Stage#0 [certificate]()    
+-- The Rolling Scopes School, JS/FE Pre-School, Stage#0 [certificate](https://vitalisantalau.github.io/cv/assets/certificates/rsshool-stage0.pdf)    
 - current course:    
 -- The Rolling Scopes School, JavaScript/Front-end 2021Q3, Stage#1      
 
