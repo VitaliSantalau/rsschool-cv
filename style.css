@@ -32,7 +32,9 @@
   --color-dark: #000000;
   --color-back-light: #dfdfdf;
   --color-red:  rgb(190, 5, 5);
+  --color-back-section: rgba(84, 86, 85, 0.3);
   --color-back-project: rgba(84, 86, 85, 0.7);
+  --color-back-article-dark: rgba(63, 62, 62, 0.95);
   --color-back-project-dark: rgba(32, 31, 31, 0.95);
   --color-back-text-project: rgb(15, 16, 18, 0.6);
 }
@@ -106,9 +108,10 @@ body {
 
 /* MAIN */
 .container-top-page {
-  background-image: url("assets/images/back(2).jpg");
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back(2).jpg");
+  /* background-image: url("assets/images/back(2).jpg"); */
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 
@@ -242,13 +245,15 @@ header {
   margin: 3rem 0;
   text-align: justify;
   font-size: 1.8rem;
+  font-weight: 100;
   line-height: 2.5rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
 }
 
 /* portfolio */
 #portfolio {
-  background-color: var(--color-back-light);
+  /* background-color: var(--color-back-light); */
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-light));
 }
 
 .portfolio-projects-container {
@@ -327,6 +332,10 @@ header {
   min-height: 30rem;
 }
 
+.project-description li {
+  font-weight: 100;
+}
+
 .project-stack {
   margin: 2rem 0 1rem 0;
   padding-top: 1rem;
@@ -365,8 +374,9 @@ header {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
   color: var(--color-light);
 }
 
@@ -376,37 +386,69 @@ header {
   text-transform: uppercase;
 }
 
+.code-cata {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 
 /* profile */
 #profile {
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back(2).jpg");
   color: var(--color-light);
-  background-color: var(--color-back-project-dark);
+  /* background-image: url("assets/images/back(2).jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: var(--color-back-project-dark); */
 }
 
 .profile {
   justify-content: flex-start;
 }
 
+.profile a {
+  /* text-transform: uppercase; */
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  color: var(--color-light);
+  text-shadow: -0.5rem 0.5rem 0.5rem var(--color-red);
+  /* text-shadow: var(--color-dark) 1px 1px 2px; */
+}
+
 .profile-section-container {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.profile-section-container::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 70%;
+  height: 1px;
+  background-color: var(--color-light);
+}
+
+.profile-section-container:last-child::after {
+  display: none;
 }
 
 .profile-section-title {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   padding: 0.5rem;
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.5rem;
   text-shadow: -2rem 0 1rem var(--color-red);
-  
 }
 
 .profile-section-cols {
   display: flex;
-  font-size: 3rem;
+  font-size: 1.8rem;
   letter-spacing: 0.2rem;
-  line-height: 5rem;
+  line-height: 3rem;
 }
 
 .profile-section-cols ul:first-child {
@@ -414,9 +456,55 @@ header {
   margin-right: 15rem;
 }
 
+.profile-section-cols li {
+  margin-left: 2rem;
+  font-weight: 100;
+}
 
- 
+/* video resume*/
+#video {
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-light));
+}
 
+.video-container {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
 
+.video-container iframe {
+  width: 100%;
+  max-width: 560px;
+  min-height: 315px;
+}
 
+/* footer */
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  color: var(--color-light);
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back(2).jpg");
+  /* background-image: url("assets/images/back(2).jpg"); */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: var(--color-back-project-dark); */
+}
 
+.logo-github {
+  color: var(--color-light);
+}
+
+.logo-github svg {
+  width: 5rem;
+  fill: var(--color-light);
+}
+
+.logo-github:hover svg {
+  fill: var(--color-dark);
+}
+
+.logo-rsschool {
+  width: 15rem;
+}
