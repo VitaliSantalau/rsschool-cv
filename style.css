@@ -106,10 +106,9 @@ body {
   font-family: var(--font-main);
 }
 
-/* MAIN */
+/* main */
 .container-top-page {
-  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back(2).jpg");
-  /* background-image: url("assets/images/back(2).jpg"); */
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -245,14 +244,13 @@ header {
   margin: 3rem 0;
   text-align: justify;
   font-size: 1.8rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 2.5rem;
   letter-spacing: 0.2rem;
 }
 
 /* portfolio */
 #portfolio {
-  /* background-color: var(--color-back-light); */
   background: linear-gradient(to top, var(--color-back-section), var(--color-back-light));
 }
 
@@ -394,13 +392,11 @@ header {
 
 /* profile */
 #profile {
-  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back(2).jpg");
   color: var(--color-light);
-  /* background-image: url("assets/images/back(2).jpg"); */
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-color: var(--color-back-project-dark); */
 }
 
 .profile {
@@ -408,12 +404,10 @@ header {
 }
 
 .profile a {
-  /* text-transform: uppercase; */
   font-weight: 300;
   letter-spacing: 0.3rem;
   color: var(--color-light);
   text-shadow: -0.5rem 0.5rem 0.5rem var(--color-red);
-  /* text-shadow: var(--color-dark) 1px 1px 2px; */
 }
 
 .profile-section-container {
@@ -458,7 +452,7 @@ header {
 
 .profile-section-cols li {
   margin-left: 2rem;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 /* video resume*/
@@ -484,12 +478,10 @@ header {
   padding-bottom: 1rem;
   font-size: 3rem;
   color: var(--color-light);
-  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back(2).jpg");
-  /* background-image: url("assets/images/back(2).jpg"); */
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  /* background-color: var(--color-back-project-dark); */
 }
 
 .logo-github {
