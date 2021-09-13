@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #363636;
+  text-decoration: none;
+}
+
+ul {list-style: none;}
+
+html {font-size: 62.5%;} /* 16px * 62.5% = 10px = 1rem */
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", Helvetica, Arial;
+  color: #363636;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 1170px;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-container {flex: 0 1 72rem;}
+
+.name {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  text-align: center;
+}
+
+.about {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+
+.about > * {margin-top: 1.5rem;}
+
+.about > ul > li {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem; 
+}
+
+.common {
+  flex: 0 1 36rem;
+  padding-top: 4rem;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.common h3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 0.5rem 0 0.5rem 3rem;
+  background-color:#505050;
+  border-left: 0.5rem solid #c01027;
+}
+
+.common a {color: #ffffff;}
+
+.common h4,
+.special h4 {
+  margin-bottom: 0.5rem;
+}
+
+.common li,
+.language p {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.contacts a {color: #ffffff;}
+
+.education p {line-height: 3rem;}
+
+.special {flex: 1 1 36rem;}
+
+.special h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0 0.5rem 3rem;
+  background-color:#505050;
+  border-left: 0.5rem solid #c01027;
+  background-color: #dcdcdc;
+}
+
+.special h3:first-child {margin-top: 1rem;}
+
+.special li,
+.skills p {
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+
+.examples a {color: #c01027;}
+
+.code {
+  flex: 1 1 36rem;
+  padding: 2rem;
+  background-color: #dcdcdc;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+footer a { color: #ffffff;}
+
+.logo {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 50%;
+}

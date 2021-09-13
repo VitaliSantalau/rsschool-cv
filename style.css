@@ -104,25 +104,31 @@ html {
 body {
   font-size: 1.6rem;
   font-family: var(--font-main);
-}
-
-/* main */
-.container-top-page {
-  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section));
 }
 
 /* header */
 header {
+  position: absolute;
   width: 100%;
-  padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.header > .container { position: relative; }
+
+.header-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 2rem;
+  transition: all 0.35s ease-in; 
 }
 
 .header-nav > ul {
   justify-content: flex-end;
+  transition: 0.5s ease-in-out;
 }
 
 .header-nav__link {
@@ -147,18 +153,81 @@ header {
   width: 110%;
 }
 
+/* adaptive nav */
+.nav-burg {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  margin: 2rem;
+  display: none;
+  height: 2.5rem;
+  width: 3rem;
+  border-top: 3px solid var(--color-light); 
+  cursor:pointer;
+  transition: all 0.3s ease-in;
+} 
+
+.nav-burg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  height: 2px;
+  width: 2rem;
+  background: var(--color-light);
+  transition: all 0.3s ease-in;
+}
+
+.nav-burg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom:0;
+  height: 2px;
+  width: 3rem;
+  background:var(--color-light);
+  transition: all 0.3s ease-in;
+}
+
+.active.nav-burg {
+  border-color:transparent;
+}
+
+.active.nav-burg::before {
+  width: 3.3rem;
+  left: -2px;
+  transform: rotate(45deg);
+}
+
+.active.nav-burg::after {
+  left: -2px;
+  bottom: 1rem;
+  width: 3.3rem;
+  transform: rotate(135deg);
+}
+
+/* main */
+
 /* about */
 #about {
   width: 100%;
-  padding-top: 5rem;
+  padding-top: 10rem;
   color: var(--color-light);
+  background: linear-gradient(to top, var(--color-back-section), var(--color-back-section)), url("./assets/images/back.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  transition: all 0.3s ease-in;
 }
 
 .container-img {
   z-index: 10;
   position: relative;
   width: 100%;
-  max-width: 300px;
+  width: 300px;
   margin-right: 6rem;
   margin-bottom: 5rem;
 }
@@ -260,6 +329,8 @@ header {
   justify-content: flex-start;
   align-items: flex-start;
   padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .project {
@@ -274,6 +345,7 @@ header {
 .video-player {
   align-self: flex-end;
   width: 80%;
+
 }
 
 .project-link-description-container {
@@ -334,6 +406,10 @@ header {
   font-weight: 100;
 }
 
+.project-description h4 {
+  font-weight: 300; 
+}
+
 .project-stack {
   margin: 2rem 0 1rem 0;
   padding-top: 1rem;
@@ -354,7 +430,6 @@ header {
   border-top: 2px solid var(--color-back-project);
 }
 
-
 /** code **/
 .code {
   align-items: stretch;
@@ -364,7 +439,15 @@ header {
   background-color: var(--color-back-project-dark);
 }
 
+pre {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .hljs {
+  width: 100%;
+  padding: 0;
   background: var(--color-back-text-project);
 }
 
@@ -388,7 +471,6 @@ header {
   font-size: 1.5rem;
   font-weight: 300;
 }
-
 
 /* profile */
 #profile {
@@ -447,7 +529,7 @@ header {
 
 .profile-section-cols ul:first-child {
   margin-left: 1rem;
-  margin-right: 15rem;
+  /* margin-right: 15rem; */
 }
 
 .profile-section-cols li {
@@ -499,4 +581,212 @@ header {
 
 .logo-rsschool {
   width: 15rem;
+}
+
+@media(max-width: 1250px) {
+  .about-links-container {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .video-player {
+    width: 100%;
+  }
+
+  .profile-section-cols {
+    flex-direction: column;
+  }
+
+  #profile > .row {
+    flex-direction: column;
+  }
+
+  .profile > .title_vert-offset {
+    transform: rotate(0deg) translateX(0);
+  }
+}
+
+@media(max-width: 1024px) {
+  .header > .container {
+    overflow: hidden;
+  }
+
+  .header-nav ul {
+    z-index: 100;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    width: 50vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    transform: translateX(-50vw);
+    background-color: var(--color-back-article-dark);
+  }
+
+  .header-nav.active ul {
+    transform: translateX(0);
+  }
+
+  .nav-burg {
+    position: fixed;
+    display: block;
+  }
+
+  .about > .container {
+    flex-direction: column;
+  }
+
+  .about-name {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  .project-description-container {
+    font-size: 1.5rem;
+  }
+
+  .video-player .project-description-container {
+    min-height: 20rem;
+  }
+
+  .project-stack {
+    font-size: 1.8rem;
+  }
+
+  .code {
+    width: 80%;
+  }
+}
+
+@media(max-width: 768px) {
+  .header-nav ul {
+    width: 80vw;
+    transform: translateX(-80vw);
+  }
+
+  #about {
+    padding-top: 5rem;
+    align-items: flex-start;
+  }
+
+  #about > .container > .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #about .title_vert {
+    margin-bottom: 2rem;
+    transform: rotate(0deg);
+  }
+
+  .container-img {
+    width: 100%;
+  }
+
+  .about-img__dot {
+    display: none;
+  }
+
+  .about-text {
+    font-size: 1.6rem;
+  }
+
+  .project-link-description-container {
+    flex-direction: column;
+  }
+
+  .video-player .project-description-container {
+    min-height: 0;
+  }
+
+  .project-link-container {
+    width: 100%;
+    height: 25rem;
+  }
+
+  .project-description-container {
+    width: 100%;
+  }
+
+  .code.row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .code, .javascript, .hljs {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .code-title, 
+  .code-description {
+    font-size: 1rem;
+  }
+
+  .footer {
+    font-size: 2rem;
+  }
+
+  .logo-github svg {
+    width: 3rem;
+  }
+
+  .logo-rsschool {
+    width: 10rem;
+  }
+}
+
+@media(max-width: 420px) {
+  #about .title {
+    display: none;
+  }
+
+  .about-text {
+    font-size: 1.4rem;
+    font-weight: 100;
+  }
+
+  .project-title {
+    font-size: 3rem;
+  }
+
+  .project-description-container {
+    font-size: 1.2rem;
+  }
+
+  .project-stack {
+    font-size: 1.2rem;
+  }
+
+  .project-code-link {
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .profile-section-cols {
+    font-size: 1.5rem;
+  }
+
+  .profile-section-cols li {
+    margin-left: 0rem;
+  }
+
+  #video .title {
+    font-size: 2.5rem;
+  } 
+
+  .footer {
+    font-size: 1.8rem;
+  }
+
+  .logo-github svg {
+    width: 2rem;
+  }
+
+  .logo-rsschool {
+    width: 5rem;
+  }
 }
