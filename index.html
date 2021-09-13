@@ -13,7 +13,7 @@
 </head>
 <body>
   <h1 class="visually-hidden">CV Vitali Santalau</h1>
-  <main class="main">
+  <main class="main main_offset">
     <div class="container-top-page">
       <header class="header">
         <div class="container">
@@ -33,9 +33,10 @@
               </li>
             </ul>
           </nav>
+          <div class="nav-burg"></div>
         </div>
       </header>
-      <article id="about">
+      <article id="about" class="about">
         <h2 class="visually-hidden">About</h2>
         <div class="container row">
           <p class="title title_vert">_About_</p>
@@ -98,7 +99,8 @@
               </a>
               <div class="project-description-container">
                 <div class="project-description">
-                  <ul>Web App with time functionality:
+                  <h4>Web App with time functionality:</h4>
+                  <ul>
                     <li> - mechanical clock</li>
                     <li> - digital clock</li>
                     <li> - current date, year</li>
@@ -122,7 +124,8 @@
               </a>
               <div class="project-description-container">
                 <div class="project-description">
-                  <ul>Web App:
+                  <h4>Web App:</h4>
+                  <ul>
                     <li> - base functionality of video player</li>
                     <li> - custom design from RSSchool</li>
                     <li> - added slider to change video</li>
@@ -161,14 +164,14 @@ function arrayDiff(a, b) {
           <section class="profile-section-container">
             <h3 class="profile-section-title">Skills</h3>
             <div class="profile-section-cols">
+              <h4 class="visually-hidden">Main skills</h4>
               <ul>
-                <h4 class="visually-hidden">Main skills</h4>
-                  <li>- JavaScript</li>
-                  <li>- HTML5</li>
-                  <li>- CSS3, Sass</li>
+                <li>- JavaScript</li>
+                <li>- HTML5</li>
+                <li>- CSS3, Sass</li>
               </ul>
+              <h4 class="visually-hidden">Relaited skills (have experience)</h4>
               <ul>
-                <h4 class="visually-hidden">Relaited skills (have experience)</h4>
                 <li>- React, Gatsby, Next.js</li>
                 <li>- Redux</li>   
                 <li>- Git, Github</li>
@@ -179,19 +182,19 @@ function arrayDiff(a, b) {
           <section class="profile-section-container">
             <h3 class="profile-section-title">Education</h3>
             <div class="profile-section-cols">
+              <h4 class="visually-hidden">Common education</h4>
               <ul>
-                <h4 class="visually-hidden">Common education</h4>
-                  <li>
-                    - 2004 / Industrial Technology /<br>
-                      State Technical University named P.O.Sukhoi
-                  </li>
-                  <li>
-                    - 2009 / Industrial management /<br>
-                      State Technical University named P.O.Sukhoi
-                  </li>
+                <li>
+                  - 2004 / Industrial Technology /<br>
+                    State Technical University named P.O.Sukhoi
+                </li>
+                <li>
+                  - 2009 / Industrial management /<br>
+                    State Technical University named P.O.Sukhoi
+                </li>
               </ul>
+              <h4 class="visually-hidden">Developer education</h4>
               <ul>
-                <h4 class="visually-hidden">Developer education</h4>
                 <li>- Codecademy, HTMLAcademy, Hexlet, etc...</li>
                 <li>- recent course - “JavaScript/DOM/UI” for programmers 
                   <a href="https://vitalisantalau.github.io/cv/assets/certificates/JavaScript-DOM-UI.jpg" target="_blank">certificate</a>
@@ -258,5 +261,17 @@ function arrayDiff(a, b) {
       </a>  
     </div>
   </footer>
+  <script>
+    const navBurg = document.querySelector('.nav-burg');
+    const aboutSection = document.querySelector('.about');
+    const nav = document.querySelector('.header-nav');
+    
+    navBurg.addEventListener('pointerdown', () => {
+      navBurg.classList.toggle('active');
+      aboutSection.classList.toggle('hidden');
+      nav.classList.toggle('adaptive');
+      
+    })
+  </script>
 </body>
 </html>
