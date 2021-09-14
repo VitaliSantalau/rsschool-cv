@@ -1,27 +1,27 @@
 /* FONTS */
 @font-face {
   font-family: 'Noto Sans JP';
-  src: url("assets/fonts/NotoSansJP-Thin.otf");
+  src: url("./assets/fonts/NotoSansJP-Thin.otf");
   font-weight: 100;
 }
 @font-face {
   font-family: 'Noto Sans JP';
-  src: url("assets/fonts/NotoSansJP-Light.otf");
+  src: url("./assets/fonts/NotoSansJP-Light.otf");
   font-weight: 300;
 }
 @font-face {
   font-family: 'Noto Sans JP';
-  src: url("assets/fonts/NotoSansJP-Regular.otf");
+  src: url("./assets/fonts/NotoSansJP-Regular.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: 'Noto Sans JP';
-  src: url("assets/fonts/NotoSansJP-Medium.otf");
+  src: url("./assets/fonts/NotoSansJP-Medium.otf");
   font-weight: 500;
 }
 @font-face {
   font-family: 'Noto Sans JP';
-  src: url("assets/fonts/NotoSansJP-Bold.otf");
+  src: url("./assets/fonts/NotoSansJP-Bold.otf");
   font-weight: 700;
 }
 
@@ -529,7 +529,6 @@ pre {
 
 .profile-section-cols ul:first-child {
   margin-left: 1rem;
-  /* margin-right: 15rem; */
 }
 
 .profile-section-cols li {
