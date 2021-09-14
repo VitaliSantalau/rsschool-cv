@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="icon" href="assets/favicon.ico" type="image/x-icon"> -->
+  <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon">
   <title>Vitali Santalau</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
@@ -41,7 +41,7 @@
         <div class="row">
           <p class="title title_vert">_About_</p>
           <div class="container-img">
-            <img class="about-img" src="assets/images/photo.jpg" alt="photo">
+            <img class="about-img" src="./assets/images/photo.jpg" alt="photo">
             <div class="about-img__dot"></div>
           </div>
         </div>
@@ -262,13 +262,18 @@
   </footer>
   <script>
     const navBurg = document.querySelector('.nav-burg');
-    const aboutSection = document.querySelector('.about');
     const nav = document.querySelector('.header-nav');
     
     navBurg.addEventListener('pointerdown', () => {
       navBurg.classList.toggle('active');
       nav.classList.toggle('active');
-      
+    })
+
+    window.addEventListener('pointerdown', (event) => {
+      if(event.target !== navBurg) {
+        navBurg.classList.remove('active');
+        nav.classList.remove('active');
+      }
     })
   </script>
 </body>
